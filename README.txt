@@ -1,1 +1,0 @@
-The experimental results are stored in this file.
