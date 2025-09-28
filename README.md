@@ -8,7 +8,7 @@ This is the official repository for the paper:
 
 ## 🎯 Overview
 
-TGSTFormer is a novel Transformer-based architecture for 3D human pose estimation from monocular videos. It introduces:
+DSGTFormer is a novel Transformer-based architecture for 3D human pose estimation from monocular videos. It introduces:
 
 - **Temporal-Graph Decoupled SpatioTemporal Attention (TGST)**: A dual-branch architecture that uses GCN for spatial modeling and self-attention for temporal modeling.
 - **Spatiotemporal Interaction Attention (STA)**: A cross-attention module for deep fusion of spatiotemporal features.
@@ -19,13 +19,13 @@ TGSTFormer is a novel Transformer-based architecture for 3D human pose estimatio
 ## 📁 Repository Structure
 
 ```
-TGSTFormer/
+DSGTFormer/
 ├── checkpoint/                 # Pre-trained model weights
 ├── dataset/                   # Data loaders for Human3.6M and MPI-INF-3DHP
 ├── common/                    # Utility functions and basic operations
 ├── model/                     # TGSTFormer network architecture
 │   ├── tgst_pe_3dhp.py        # Main model  
-│   └── TGSTFormer.py         # Main model
+│   └── DSGTFormer.py         # Main model
 ├── run.py               # Training and evaluation script
 ├── demo/                     # Demo for in-the-wild videos
 └── README.md
