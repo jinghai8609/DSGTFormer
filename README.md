@@ -10,7 +10,7 @@ This is the official repository for the paper:
 
 DSGTFormer is a novel Transformer-based architecture for 3D human pose estimation from monocular videos. It introduces:
 
-- **Temporal-Graph Decoupled SpatioTemporal Attention (TGST)**: A dual-branch architecture that uses GCN for spatial modeling and self-attention for temporal modeling.
+- **Temporal-Graph Decoupled SpatioTemporal Attention (DSGT)**: A dual-branch architecture that uses GCN for spatial modeling and self-attention for temporal modeling.
 - **Spatiotemporal Interaction Attention (STA)**: A cross-attention module for deep fusion of spatiotemporal features.
 - **State-of-the-art performance** on Human3.6M and MPI-INF-3DHP datasets.
 
