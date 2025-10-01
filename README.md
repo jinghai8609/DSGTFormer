@@ -1,11 +1,13 @@
 Decoupled Spatiotemporal Transformer with Graph Convolution for Enhanced 3D Human Pose Estimation
 
+Thank you for your interest, the code and checkpoints are being updated.
 This is the official repository for the paper:
 
 > **Decoupled Spatiotemporal Transformer with Graph Convolution for Enhanced 3D Human Pose Estimation**  
 > Guowei Zhong, Chenglong Li, Xinyan Gao, Jinxiao Zhang  
 > *Shandong Jianzhu University & Shandong Huayun 3D Technology Co., Ltd.*  
-
+> The Visual Compute
+> r
 ## 🎯 Overview
 
 DSGTFormer is a novel Transformer-based architecture for 3D human pose estimation from monocular videos. It introduces:
